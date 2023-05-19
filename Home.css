@@ -1,0 +1,93 @@
+main{
+    height:500px;
+    background-image: url(https://images.unsplash.com/photo-1661956600684-97d3a4320e45?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwzMXx8fGVufDB8fHx8fA%3D%3D&w=1000&q=80);
+    width:1150px;
+    margin:auto;
+    border-radius: 10px;
+    border:2px solid #BBD6B8;
+    background-size: cover;
+}
+
+body{
+    background-color: #c4dfdf;
+}
+
+header{
+    height:70px;
+    width:1150px;
+    border:2px solid #BBD6B8;
+    background-color: #ECF2FF;
+    margin:10px auto;
+    border-radius: 10px;
+
+}
+
+h1{
+    color: #FFB84C;
+    letter-spacing: 5px;
+    padding:50px 30px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding:20px 0;
+  }
+
+  li {
+    display: inline;
+    padding:20px 115px;
+    color: #E7B10A;
+  }
+
+  li:hover{
+    color:#62CDFF;
+  }
+
+
+  .first,.second,.third{
+    width:360px;
+    height:400px;
+    background-color:#F8F6F4;
+    border-radius: 10px;
+    display:inline-block;
+    margin:10px 14px;
+    border:2px solid #BBD6B8;
+  }
+
+  footer{
+    margin:0 160px;
+    
+  }
+
+ 
+
+  .sub2{
+    background-image: url(https://static.vecteezy.com/system/resources/previews/006/845/195/original/satisfied-client-rgb-color-icon-customer-satisfaction-happy-buyer-meeting-consumer-needs-customer-engagement-isolated-illustration-simple-filled-line-drawing-editable-stroke-vector.jpg);
+    width:220px;
+    height: 220px;
+    background-size: cover;
+    margin:30px 65px;
+  }
+
+  .sub1{
+    background-image: url(https://cdn1.vectorstock.com/i/1000x1000/54/90/administrator-avatar-icon-vector-32095490.jpg);
+    width:220px;
+    height: 220px;
+    background-size: cover;
+    margin:30px 65px
+  }
+
+  .sub3{
+    background-image: url(https://static.vecteezy.com/system/resources/previews/008/197/656/non_2x/how-to-enroll-concept-icon-online-registration-add-contact-create-account-network-group-administration-business-chat-idea-thin-line-illustration-isolated-outline-drawing-editable-stroke-vector.jpg);
+    width:220px;
+    height: 220px;
+    background-size: cover;
+    margin:30px 65px
+  }
+
+  li.active
+  {
+    color: #62CDFF;
+  }
